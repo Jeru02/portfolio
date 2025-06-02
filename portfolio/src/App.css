@@ -1,42 +1,241 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+body {
+
+    background-color: rgba(0, 0, 0, 0.926);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+	
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.aboutMeContainer{
+
+
+display: flex;
+flex-direction: column;
+align-items: start;
+padding: 10%;
+
+
+}
+.title{
+
+    margin-bottom: 20px;
+	font-size: 2rem;
+}
+
+#aboutMeDescription{
+
+
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.42);
+    width: 40%;
+    
+}
+
+
+#contactMeButton{
+
+margin-bottom: 200px; 
+
+}
+
+#navBar{
+display: flex;
+flex-direction: row;
+padding-left: 50%;
+justify-content: space-around;
+padding-top: 40px;
+font-size: 20px;
+
+}
+
+/* hover underline for nav bar 
+from internet */
+
+.hover-underline {
+  
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  background: linear-gradient(to right, #ff00e6, #00ffff);
+  bottom: -30px;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
+
+
+/* contact button style */
+/* from internet */
+
+html {
+	height: 100%;
+	display: flex;
+}
+body {
+
+	perspective: 500px;
+}
+
+#contactMeButton {
+	display: block;
+	position: relative;
+	margin: 0.5em 0;
+	padding: .8em 2.2em;
+	cursor: pointer;
+
+	background: #FFFFFF;
+	border: none;
+	border-radius: .4em;
+
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.04em;
+
+	mix-blend-mode: color-dodge;
+	perspective: 500px;
+	transform-style: preserve-3d;
+
+	&:before, &:after {
+		--z: 0px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		content: '';
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		mix-blend-mode: inherit;
+		border-radius: inherit;
+		transform-style: preserve-3d;
+		transform: translate3d(
+			calc(var(--z) * 0px), 
+			calc(var(--z) * 0px), 
+			calc(var(--z) * 0px)
+		);
+	}
+	
+	
+	
+	&:after {
+		background-color: #2289ff;
+	}
+	
+	&:before {
+		background-color: #ff17f7;
+	}
+	
+	&:hover {
+		background-color: #FFF65B;
+		transition: background .3s 0.1s;
+	}
+	
+	&:hover:before {
+		--z: 0.04;
+		animation: translateWobble 2.2s ease forwards;
+	}
+	
+	&:hover:after {
+		--z: -0.06;
+		animation: translateWobble 2.2s ease forwards;
+	}
+}
+
+
+@keyframes translateWobble {
+  0% {
+		opacity: 0;
+		transform: translate3d(
+			calc(var(--z) * 0px), 
+			calc(var(--z) * 0px), 
+			calc(var(--z) * 0px)
+		);
   }
-  to {
-    transform: rotate(360deg);
+  16% {
+		transform: translate3d(
+			calc(var(--z) * 160px), 
+			calc(var(--z) * 160px), 
+			calc(var(--z) * 160px)
+		);
+  }
+  28% {
+		opacity: 1;
+		transform: translate3d(
+			calc(var(--z) * 70px), 
+			calc(var(--z) * 70px), 
+			calc(var(--z) * 70px)
+		);
+  }
+  44% {
+		transform: translate3d(
+			calc(var(--z) * 130px), 
+			calc(var(--z) * 130px), 
+			calc(var(--z) * 130px)
+		);
+  }
+  59% {
+		transform: translate3d(
+			calc(var(--z) * 85px), 
+			calc(var(--z) * 85px), 
+			calc(var(--z) * 85px)
+		);
+  }
+  73% {
+		transform: translate3d(
+			calc(var(--z) * 110px), 
+			calc(var(--z) * 110px), 
+			calc(var(--z) * 110px)
+		);
+  }
+	88% {
+		opacity: 1;
+		transform: translate3d(
+			calc(var(--z) * 90px), 
+			calc(var(--z) * 90px), 
+			calc(var(--z) * 90px)
+		);
+  }
+  100% {
+		opacity: 1;
+		transform: translate3d(
+			calc(var(--z) * 100px), 
+			calc(var(--z) * 100px), 
+			calc(var(--z) * 100px)
+		);
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
+
+
+
+
