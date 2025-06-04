@@ -10,12 +10,17 @@ margin-bottom: 400px;
 
 
 
+
 }
+
+
 .title{
 
     margin-bottom: 20px;
 	font-size: 2rem;
+	min-width: 400px;
 }
+
 
 #aboutMeDescription{
 
@@ -23,6 +28,8 @@ margin-bottom: 400px;
     margin-bottom: 40px;
     color: rgba(255, 255, 255, 0.42);
     width: 40%;
+	min-width: 400px;
+	
     
 }
 
@@ -171,5 +178,28 @@ body {
 			calc(var(--z) * 100px)
 		);
   }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  
+
+.title{
+	font-size: 19px;
+	
+}
+
+
+#contactMeButton{
+
+	width:auto ;
+	height:auto;
+	font-size: 100%;
+}
+
+
+
+
 
 }

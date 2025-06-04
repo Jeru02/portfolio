@@ -3,6 +3,7 @@
 
     margin-top: 25px;
     
+    
 }
 
 #contact-container{
@@ -17,4 +18,32 @@
 .Contact-img{
 
     padding-right: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  
+
+#contact-container{
+    flex-direction: row;
+    justify-content: center
+}
+
+.Contact-img{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50px;
+}
+#ContactInfo-title{
+
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+
+
+
 }
