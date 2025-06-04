@@ -4,8 +4,8 @@ const AboutMe = () => {
   return (
     <div className="aboutMeContainer" >
       <div className="title">
-        <h1>Hi, I'm Jeru :)</h1>
-        <h1>I build Full stack web applications</h1>
+        <h1>Hi, I'm <span className="blue-text">Jeru</span></h1>
+        <h1>I build <span className="blue-text">Full stack</span> web applications</h1>
       </div>
 
       <p id="aboutMeDescription">

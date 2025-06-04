@@ -14,6 +14,7 @@ min-width:405px;
 
   margin-left: 3%;
   margin-right: 3%;
+  cursor:pointer;
 
 
 }
@@ -58,11 +59,13 @@ from internet */
     flex-direction:row;
     justify-content: space-around;
     font-size: 17px;
+    
 }
 
 #navBar-item{
   margin-left: 0;
   margin-right: 0;
+  
 }
 
 

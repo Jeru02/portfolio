@@ -8,6 +8,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 column-gap: 10px;
 row-gap: 10px;
  width: 100%;
+ 
 
 }
 
@@ -23,6 +24,7 @@ border-radius: 5px;
 height: 100%;
 width: 100%;
 min-width: 150px;
+
 
 
 
@@ -45,6 +47,7 @@ column-gap: 10px;
 row-gap: 10px;
 
 
+
 }
 
 #techStackTitle{
@@ -52,6 +55,7 @@ row-gap: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 }
 
