@@ -1,10 +1,19 @@
 #navBar{
 display: flex;
 flex-direction: row;
-padding-left: 50%;
-justify-content: space-around;
+
+justify-content: end;
 padding-top: 40px;
 font-size: 20px;
+
+}
+
+
+#navBar-item{
+
+  margin-left: 3%;
+  margin-right: 3%;
+
 
 }
 

@@ -1,0 +1,20 @@
+
+#ContactInfo-title{
+
+    margin-top: 25px;
+    
+}
+
+#contact-container{
+
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+}
+
+
+.Contact-img{
+
+    padding-right: 20px;
+}

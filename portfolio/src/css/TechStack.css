@@ -1,14 +1,14 @@
 
 #techStackTitle{
 
-    font-size: 40px;
+    
     
 }
 
 .techStackContainer{
 
 
-margin-top: 3%;
+margin-top: 25px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 column-gap: 10px;
