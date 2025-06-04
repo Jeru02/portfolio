@@ -21,6 +21,9 @@ background-color: rgba(54, 54, 54, 0.987);
 border-radius: 5px;
 height: 100%;
 width: 100%;
+min-width: 150px;
+
+
 
 }
 .logo-img{
@@ -29,6 +32,26 @@ width: 100%;
     border-radius: 5px;
     width:auto;
     background-color: rgba(33, 33, 33, 0.987) ;
+}
+
+@media only screen and (max-width: 900px) {
+  .techStackContainer{
+
+margin-top: 25px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+column-gap: 10px;
+row-gap: 10px;
+
+
+}
+
+#techStackTitle{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -50,3 +73,4 @@ row-gap: 10px;
     justify-content: center;
 }
 }
+
