@@ -1,0 +1,38 @@
+
+#techStackTitle{
+
+    font-size: 40px;
+    
+}
+
+.techStackContainer{
+
+
+margin-top: 3%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 10px;
+row-gap: 10px;
+   
+}
+
+.techstack-card{
+
+display: flex;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+background-color: rgba(54, 54, 54, 0.987);
+border-radius: 5px;
+height: 100%;
+width: 100%;
+
+}
+.logo-img{
+    margin: 10px;
+    height: 40px;
+    border-radius: 5px;
+    width:auto;
+    background-color: rgba(33, 33, 33, 0.987) ;
+}
+

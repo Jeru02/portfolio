@@ -1,5 +1,5 @@
 import ContactMeButton from "./ContactMeButton";
-
+import "../css/AboutMe.css"
 const AboutMe = () => {
   return (
     <div className="aboutMeContainer" >

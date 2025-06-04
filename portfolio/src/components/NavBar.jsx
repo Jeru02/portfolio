@@ -1,3 +1,5 @@
+import "../css/NavBar.css"
+
 const NavBar = () => {
   return (
     <div id = "navBar" className="hover-underline">

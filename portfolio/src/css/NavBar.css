@@ -1,0 +1,43 @@
+#navBar{
+display: flex;
+flex-direction: row;
+padding-left: 50%;
+justify-content: space-around;
+padding-top: 40px;
+font-size: 20px;
+
+}
+
+/* hover underline for nav bar 
+from internet */
+
+.hover-underline {
+  
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  background: linear-gradient(to right, #ff00e6, #00ffff);
+  bottom: -30px;
+  right: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}

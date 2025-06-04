@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import AboutMe from "./components/AboutMe";
 import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
@@ -8,9 +8,11 @@ function App() {
   return (
     <>
       <NavBar />
-      <AboutMe />
-      <TechStack />
-      <Projects />
+      <div className="main-app"> 
+        <AboutMe />
+        <TechStack />
+        <Projects />
+      </div>
     </>
   );
 }
