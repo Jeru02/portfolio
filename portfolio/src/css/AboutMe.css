@@ -1,11 +1,11 @@
 
 .aboutMeContainer{
 
-
+padding-top: 100px;
 display: flex;
 flex-direction: column;
 align-items: start;
-margin-bottom: 550px;
+margin-bottom: 400px;
 
 
 
