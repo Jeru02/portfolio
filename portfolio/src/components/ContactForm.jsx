@@ -65,6 +65,7 @@ const ContactInfo = () => {
           </button>
         </div>
       </form>
+      <a id="toContactForm"></a>
     </div>
   );
 };
