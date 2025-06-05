@@ -1,0 +1,141 @@
+
+#ContactInfo-title{
+
+    margin-top: 25px;
+    
+    
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  
+
+#ContactInfo-title{
+
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+}
+
+#email-form-container{
+
+    border-radius: 5px;
+    border: solid rgba(255, 255, 255, 0.225) 1px;
+    background-color: rgba(54, 54, 54, 0.987);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    min-width: 310px;
+    margin-top: 10px;
+    
+    
+
+
+   
+  
+    
+}
+
+#name{
+width: 100%;
+background-color: rgba(54, 54, 54, 0.987);
+border: solid rgba(255, 255, 255, 0.225) 1px;
+color: white;
+padding: 6px;
+border-radius: 5px;
+
+
+
+
+}
+#email{
+width: 100%;
+background-color: rgba(54, 54, 54, 0.987);
+border: solid rgba(255, 255, 255, 0.225) 1px;
+color: white;
+padding: 6px;
+border-radius: 5px;
+
+}
+#msg{display: block;
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.987);
+    border: solid rgba(255, 255, 255, 0.225) 1px;
+    color: white;
+    padding: 6px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+     border-radius: 5px;
+
+     
+   
+}
+
+.labels{
+
+    font-size: 15px;
+    padding-bottom: 12px;
+}
+
+#star{
+    color: rgb(112, 169, 233);
+}
+
+
+#name-email-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2%;
+    width: 100%;
+    margin-bottom: 10px;
+    
+   
+    
+}
+
+#button-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+
+}
+
+#button{
+    min-width: 80px;
+    background-color: rgba(54, 54, 54, 0.987);
+    border: solid rgba(255, 255, 255, 0.225) 1px;
+    color: white;
+    text-align:center;
+    padding: 1%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.button-text{
+margin-left: 10%;
+
+}
+
+.send-img{
+    width: 15px;
+}
+
+
+

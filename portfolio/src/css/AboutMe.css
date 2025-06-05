@@ -14,9 +14,24 @@ align-items: start;
 margin-bottom: 400px;
 
 
+}
+
+.Contact-img{
+
+    padding-right: 20px;
+    cursor:pointer;
+	
+}
 
 
+#contact-container{
 
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+	
+	
 }
 
 
@@ -191,6 +206,18 @@ body {
 
 
 @media only screen and (max-width: 500px) {
+
+
+#contact-container{
+    flex-direction: row;
+    justify-content: center
+}
+
+.Contact-img{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70px;
+}
   
 
 .title{

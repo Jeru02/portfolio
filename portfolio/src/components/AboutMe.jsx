@@ -1,5 +1,6 @@
 import ContactMeButton from "./ContactMeButton";
 import "../css/AboutMe.css"
+import ContactLinks from "./ContactLinks";
 const AboutMe = () => {
   return (
     <div className="aboutMeContainer" >
@@ -15,6 +16,7 @@ const AboutMe = () => {
        
       </p>
       <ContactMeButton />
+      <ContactLinks />
 
     </div>
   );

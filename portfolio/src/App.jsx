@@ -3,7 +3,7 @@ import AboutMe from "./components/AboutMe";
 import TechStack from "./components/TechStack";
 import Projects from "./components/ProjectsContainer";
 import NavBar from "./components/NavBar";
-import ContactInfo from "./ContactInfo";
+import ContactInfo from "./components/ContactForm";
 
 
 
