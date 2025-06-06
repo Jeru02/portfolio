@@ -204,6 +204,16 @@ body {
 
 }
 
+#Lottie-animation{
+
+	position: absolute;
+	width: 800px;
+	z-index: 1;
+	opacity: 100%;
+	right:0px;
+	
+}
+
 
 @media only screen and (max-width: 500px) {
 
@@ -231,8 +241,18 @@ body {
 	width:auto ;
 	height:auto;
 	font-size: 100%;
+	
 }
 
+#Lottie-animation{
+
+	position: absolute;
+	width: 400px;
+	z-index: 1;
+	opacity: 100%;
+	right:0px;
+	
+}
 
 
 

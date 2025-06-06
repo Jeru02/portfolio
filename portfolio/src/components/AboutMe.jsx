@@ -1,6 +1,13 @@
 import ContactMeButton from "./ContactMeButton";
 import "../css/AboutMe.css"
 import ContactLinks from "./ContactLinks";
+
+
+import Lottie from "lottie-react";
+import LottieAnimation from "../assets/Lotties/aura.json"
+
+
+
 const AboutMe = () => {
   return (
     <div className="aboutMeContainer" >
@@ -15,6 +22,9 @@ const AboutMe = () => {
         technology and culture to build innovative solutions and connect people.
        
       </p>
+
+<div id="Lottie-animation"><Lottie animationData={LottieAnimation}/></div>
+    
       <ContactMeButton />
       <ContactLinks />
 
