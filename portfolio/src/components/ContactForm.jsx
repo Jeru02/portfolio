@@ -38,21 +38,17 @@ const ContactInfo = () => {
           </div>
         </div>
 
-
         <div id="msg-container">
           <p className="labels">
-          Message<span id="star">*</span>
-        </p>
-        <textarea
-          name="msg"
-          required
-          placeholder="Hello there, I would like to ask you about..."
-          id="msg"
-        ></textarea>
+            Message<span id="star">*</span>
+          </p>
+          <textarea
+            name="msg"
+            required
+            placeholder="Hello there, I would like to ask you about..."
+            id="msg"
+          ></textarea>
         </div>
-        
-
-
 
         <div id="button-container">
           <button type="submit" id="button">
