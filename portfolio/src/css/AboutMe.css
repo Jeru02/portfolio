@@ -14,6 +14,13 @@ align-items: start;
 margin-bottom: 400px;
 
 
+
+}
+
+#location-text{
+padding-top:20px;
+font-size: 20px;
+
 }
 
 .Contact-img{
@@ -32,6 +39,7 @@ margin-bottom: 400px;
     justify-content:start;
 	
 	
+	
 }
 
 
@@ -40,6 +48,7 @@ margin-bottom: 400px;
     margin-bottom: 20px;
 	font-size: 2rem;
 	min-width: 400px;
+	
 }
 
 
@@ -51,6 +60,7 @@ margin-bottom: 400px;
     width: 40%;
 	min-width: 400px;
 	font-size: 20px;
+	overflow: visible;
 	
 	
     
@@ -204,15 +214,7 @@ body {
 
 }
 
-#Lottie-animation{
 
-	position: absolute;
-	width: 800px;
-	z-index: 1;
-	opacity: 100%;
-	right:0px;
-	
-}
 
 
 @media only screen and (max-width: 500px) {
@@ -244,17 +246,12 @@ body {
 	
 }
 
-#Lottie-animation{
 
-	position: absolute;
-	width: 400px;
-	z-index: 1;
-	opacity: 100%;
-	right:0px;
-	
-}
+
 
 
 
 
 }
+
+

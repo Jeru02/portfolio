@@ -1,9 +1,11 @@
-import "..//css/ProjectsContainer.css"
+import "..//css/ProjectsContainer.css";
 
-const ProjectsContainer = ()=>{
+const ProjectsContainer = () => {
+  return (
+    <>
+      
+    </>
+  );
+};
 
-return <h1 id= "ProjectsContainer-title">Projects</h1>
-
-}
-
-export default ProjectsContainer
+export default ProjectsContainer;

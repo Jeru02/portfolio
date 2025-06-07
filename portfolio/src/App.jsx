@@ -4,6 +4,7 @@ import TechStack from "./components/TechStack";
 import Projects from "./components/ProjectsContainer";
 import NavBar from "./components/NavBar";
 import ContactInfo from "./components/ContactForm";
+import ProjectsContainer from "./components/ProjectsContainer";
 
 
 
@@ -14,7 +15,7 @@ function App() {
       <div className="main-app"> 
         <AboutMe />
         <TechStack />
-        <Projects />
+        <ProjectsContainer />
         <ContactInfo />
       </div>
     </>

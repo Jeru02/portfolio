@@ -14,16 +14,25 @@ const AboutMe = () => {
       <div className="title">
         <h1>Hi, I'm <span className="blue-text">Jeru</span></h1>
         <h1>I build <span className="blue-text">Full stack</span> web applications</h1>
+
+       
+        <p id="location-text">⚲ Bishops Stortford, United Kingdom</p>
+        
       </div>
 
       <p id="aboutMeDescription">
+
+
+
+
+
         I'm a creative problem-solver with a background in computer science,
         music production, and events management. I’m passionate about using
         technology and culture to build innovative solutions and connect people.
        
       </p>
 
-<div id="Lottie-animation"><Lottie animationData={LottieAnimation}/></div>
+
     
       <ContactMeButton />
       <ContactLinks />
