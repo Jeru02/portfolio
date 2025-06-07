@@ -11,8 +11,9 @@ import ProjectsContainer from "./components/ProjectsContainer";
 function App() {
   return (
     <>
-      <NavBar />
+      
       <div className="main-app"> 
+        <NavBar />
         <AboutMe />
         <TechStack />
         <ProjectsContainer />

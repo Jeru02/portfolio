@@ -26,6 +26,11 @@ const TechStack = () => {
         </div>
 
         <div className="techstack-card">
+          <img src="src/assets/PostgreSQL.png" alt="" className="logo-img"/>
+          <p>PostgreSQL</p>
+        </div>
+
+        <div className="techstack-card">
           <img src="src/assets/Node-Logo.png" alt="" className="logo-img"/>
           <p>Node</p>
         </div>
