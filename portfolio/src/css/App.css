@@ -27,8 +27,6 @@ a:link, a:visited, a:hover, a:active{
 
 
 body {
-
-    background-color: rgba(0, 0, 0, 0.926);
     color: white;
     width: 100%;
     background-image: repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20));
@@ -43,6 +41,7 @@ padding-bottom: 20px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+
 
 
 

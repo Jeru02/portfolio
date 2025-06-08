@@ -17,6 +17,7 @@ margin-top: 20px;
   column-gap: 5%;
   row-gap: 5%;
 
+   border-color: solid red 4px;
 
 }
 
@@ -38,6 +39,7 @@ object-fit:cover;
   position: relative;
   box-shadow: 8px 8px 8px rgb(0, 0, 0);
   transition: width 1s, height 1s;
+
 
 
 }
@@ -93,6 +95,7 @@ padding: 1%;
 width: 20%;
 
 
+
 }
 
 
@@ -120,6 +123,8 @@ background-image:
   align-items:center;
   padding-right: 2%;
   vertical-align: middle;
+  
+  
    
    
 
@@ -133,11 +138,6 @@ background-image:
   cursor: pointer;
 
    
-}
-
-#read-more-button:hover{
-
-
 }
 
 
