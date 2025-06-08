@@ -5,7 +5,6 @@ const ProjectsContainer = () => {
     <>
       <h1 id="ProjectsContainer-title">Projects</h1>
       <div className="project-grid">
-
         {/* project template below */}
 
         <div className="project-card">
@@ -145,7 +144,7 @@ const ProjectsContainer = () => {
         </div>
 
         {/* project template below */}
-        
+
         <div className="project-card">
           <div className="gradient">
             <div className="project-info">
