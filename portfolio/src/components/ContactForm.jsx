@@ -5,6 +5,9 @@ const ContactInfo = () => {
     <div>
       <h1 id="ContactInfo-title">Contact</h1>
 
+
+      <p id="contact-description">I'm always eager to explore new opportunities and take on exciting projects. If you have a project in mind, or just want to say hi, feel free to send me a message.</p>
+
       <form
         action="https://formsubmit.co/5f773e2deb0c91036deb29779bcb1f8d"
         method="POST"
