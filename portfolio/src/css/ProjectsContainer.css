@@ -1,9 +1,122 @@
+
 #ProjectsContainer-title{
 
 
     margin-top: 25px;
     
 
+}
+
+.project-grid{
+
+margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  /* border: red solid 1px; */
+  column-gap: 5%;
+  row-gap: 5%;
+
+
+}
+
+.project-image{
+width: 100%;
+height: 100%;
+object-fit:cover;
+
+
+
+}
+
+.project-card{
+  font-size: 1vw;
+  width: 100%;
+  height: 100%;
+  border: rgb(255, 255, 255)  solid 1px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+
+
+
+}
+
+.project-info{
+position: absolute;
+bottom: 0;
+left:0;
+padding-left: 2% ;
+padding-bottom: 2%;
+display: flex;
+flex-direction: column;
+font-size: 100%;
+font-size: 100%;
+height: fit-content;
+width: fit-content;
+
+
+}
+
+
+#project-stack{
+
+display: flex;
+  /* border: solid rgb(239, 255, 57) 1px; */
+  flex-direction: row;
+  justify-content: start;
+  width: 50%;
+ 
+}
+
+.project-stack-card{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+display: flex;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+border: solid rgb(255, 255, 255) 0.5px;
+border-radius:4px;
+padding: 1%;
+width: fit-content;
+
+}
+
+
+
+.tech-stack-img{
+  width: 25%;
+  margin-right: 1%;
+}
+
+.gradient{
+height: 100%;
+width: 100%;
+position: absolute;
+background-image:
+  linear-gradient(to top, rgba(0, 0, 0, 0.846), transparent);
+}
+
+
+
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 2%;
+  
+
+}
+
+#read-more-button{
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 2%;
+  font-size: 1vw;
+  cursor: pointer;
 }
 
 
@@ -16,6 +129,34 @@
     justify-content: center;
 
 }
+
+.project-grid{
+
+
+  grid-template-columns: 1fr ;
+  width: 100%;
+  /* border: red solid 1px; */
+  column-gap: 2%;
+  row-gap: 2%;
+
+
+}
+.project-card{
+
+
+  font-size: 2.8vw;
+}
+
+#read-more-button{
+  
+  font-size: 2vw;
+}
+
+
+
+
+
+
 
 }
 
